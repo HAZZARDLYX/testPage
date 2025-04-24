@@ -1,0 +1,28 @@
+h2{
+    font-size: medium;
+}
+p{
+    color:blue;
+    font-size:36px;
+}
+section{
+    background-color:#d6ccc2;
+}
+.corner-image{
+            position: relative;
+            top: 10px; /* 距离页面顶部的距离 */
+            right: 10px; /* 距离页面右侧的距离 */
+            width: 150px; /* 调整图片宽度 */
+            height: auto; /* 保持图片的宽高比 */
+}
+.background{
+    position: fixed; /* 使用fixed定位，使背景图片固定在视口 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/HAZZARDLYX/images/background.jpg'); /* 替换为你的背景图片路径 */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* 确保背景图片在其他内容之下 */
+}
